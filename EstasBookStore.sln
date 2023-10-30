@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstasBookStore", "EstasBookStore\EstasBookStore.csproj", "{C35D0AC7-4296-45EE-A54B-6855FC55D953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstasBookStore.DataAccess", "EstasBookStore.DataAccess\EstasBookStore.DataAccess.csproj", "{BB4D5F85-CA2F-4EAE-8300-59237FF4EA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstasBookStore.Models", "EstasBookStore.Models\EstasBookStore.Models.csproj", "{71C08758-BD04-4BD0-B68C-4AD9D5E95B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstasBookStore.Utility", "EstasBookStore.Utility\EstasBookStore.Utility.csproj", "{D2372422-F7E4-4724-92D5-74EBC53F3E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{C35D0AC7-4296-45EE-A54B-6855FC55D953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35D0AC7-4296-45EE-A54B-6855FC55D953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35D0AC7-4296-45EE-A54B-6855FC55D953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4D5F85-CA2F-4EAE-8300-59237FF4EA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4D5F85-CA2F-4EAE-8300-59237FF4EA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4D5F85-CA2F-4EAE-8300-59237FF4EA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4D5F85-CA2F-4EAE-8300-59237FF4EA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C08758-BD04-4BD0-B68C-4AD9D5E95B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C08758-BD04-4BD0-B68C-4AD9D5E95B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C08758-BD04-4BD0-B68C-4AD9D5E95B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C08758-BD04-4BD0-B68C-4AD9D5E95B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2372422-F7E4-4724-92D5-74EBC53F3E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2372422-F7E4-4724-92D5-74EBC53F3E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2372422-F7E4-4724-92D5-74EBC53F3E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2372422-F7E4-4724-92D5-74EBC53F3E9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
