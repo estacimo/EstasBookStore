@@ -1,6 +1,6 @@
 using System;
 
-namespace EstasBookStore.Models
+namespace EstasBookStore.Models.ViewModels
 {
     public class ErrorViewModel
     {

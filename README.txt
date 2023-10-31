@@ -101,3 +101,8 @@ Had to restart the whole application from scratch because I hadn't made sure tha
 1949
 Restored the previous changes up to 1458
 Recreated Github repository
+
+2010
+Finished catching up to everything. 'IdentityUser' error is still there
+Fixed error. Had installed the wrong package:
+'Identity.EntityFrameworkCore' instead of 'Microsoft.AspNetCore.Identity.EntityFrameworkCore'
