@@ -111,3 +111,16 @@ Fixed error. Had installed the wrong package:
 Added new class SD.cs in EstasBookStore.Utility and modified its properties
 Added project reference to the main project
 Added project references to .Models and .Utility in the .DataAccess project
+
+2028
+Added Customer area
+Changed route in Startup.cs
+Moved HomeController.cs to Areas/Customer/Controllers
+Deleted Data and Models in Customer
+
+2031
+Defined Customer area in HomeController.cs
+
+2032
+Moved Views/Home to Areas/Customer/Views
+Updated namespace in HomeController.cs

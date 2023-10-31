@@ -7,8 +7,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EstasBookStore.Controllers
+namespace EstasBookStore.Area.Customer.Controllers
 {
+    [Area("Customer")] // Explicitly define area
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
