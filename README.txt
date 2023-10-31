@@ -124,3 +124,8 @@ Defined Customer area in HomeController.cs
 2032
 Moved Views/Home to Areas/Customer/Views
 Updated namespace in HomeController.cs
+
+1102
+Copied _ViewImports.cshtml and _ViewStart.cshtml to Areas/Customer/Views
+Modified _ViewStart.cshtml to reflect the new path
+Application runs successfully
