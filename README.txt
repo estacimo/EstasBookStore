@@ -106,3 +106,8 @@ Recreated Github repository
 Finished catching up to everything. 'IdentityUser' error is still there
 Fixed error. Had installed the wrong package:
 'Identity.EntityFrameworkCore' instead of 'Microsoft.AspNetCore.Identity.EntityFrameworkCore'
+
+2021
+Added new class SD.cs in EstasBookStore.Utility and modified its properties
+Added project reference to the main project
+Added project references to .Models and .Utility in the .DataAccess project

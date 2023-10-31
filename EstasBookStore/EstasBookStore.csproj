@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EstasBookStore.DataAccess\EstasBookStore.DataAccess.csproj" />
     <ProjectReference Include="..\EstasBookStore.Models\EstasBookStore.Models.csproj" />
+    <ProjectReference Include="..\EstasBookStore.Utility\EstasBookStore.Utility.csproj" />
   </ItemGroup>
 
 </Project>
