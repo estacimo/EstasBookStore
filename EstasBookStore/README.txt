@@ -125,12 +125,30 @@ Defined Customer area in HomeController.cs
 Moved Views/Home to Areas/Customer/Views
 Updated namespace in HomeController.cs
 
-1102
+2302
 Copied _ViewImports.cshtml and _ViewStart.cshtml to Areas/Customer/Views
 Modified _ViewStart.cshtml to reflect the new path
 Application runs successfully
 
-1126
+2326
 Added Admin area, deleted Models and Data folders within it and added the view files to Admin/Views/
 
 ---Finished part one of Assignment 2---
+
+2023-10-31 11:06
+In appsettings.json:
+"DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-EstasBookStore-85C5116A-FAFF-4295-9046-E2E46E5449C1;Trusted_Connection=True;MultipleActiveResultSets=true"
+-> "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=EstasBookStore;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+1115
+Ran Add-Migration InitialMigration in the PMC, received error: 
+Your target project 'EstasBookStore' doesn't match your migrations assembly 'EstasBookStore.DataAccess'. Either change your target project or change your migrations assembly.
+Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("EstasBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
+Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+
+1119
+Selected default project on the PMC to be EstasBookStore.DataAccess
+Success. Migration created: 20231031152411_InitialMigration.cs
+
+1125
+Ran Update-Database successfully in the PMC
