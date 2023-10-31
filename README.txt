@@ -129,3 +129,8 @@ Updated namespace in HomeController.cs
 Copied _ViewImports.cshtml and _ViewStart.cshtml to Areas/Customer/Views
 Modified _ViewStart.cshtml to reflect the new path
 Application runs successfully
+
+1126
+Added Admin area, deleted Models and Data folders within it and added the view files to Admin/Views/
+
+---Finished part one of Assignment 2---
