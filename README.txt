@@ -175,3 +175,26 @@ Updated the database
 2058
 Added Repository folder in the EstasBookStore.DataAccess project
 Added IRepository folder within the Repository folder
+
+2110
+Added an interface item IRepository.cs
+Added the following using statement: 
+using System.Linq.Expressions;
+As well as the following code:
+ public interface IRepository<T> where T : class
+    {
+        T Get(int id);
+        IEnumerable<T> GetAll(
+            Expression<Func<T, bool>> filter = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            string includeProperties = null
+            );
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
+        void Add(T entity); 
+        void Remove(int id); 
+        void Remove(T entity); 
+        void RemoveRange(IEnumerable<T> entity); 
+    }
