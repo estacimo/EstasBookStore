@@ -152,3 +152,9 @@ Success. Migration created: 20231031152411_InitialMigration.cs
 
 1125
 Ran Update-Database successfully in the PMC
+
+2023-11-06
+1848
+Created Category model
+Added System.ComponentModel.DataAnnotations using statement at the top of the class
+Added new table inside the Category model
