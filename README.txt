@@ -167,3 +167,7 @@ Added the following using statement to ApplicationDbContext.cs:
 using EstasBookStore.Models;
 along with the following code:
 public DbSet<Category> Categories { get; set; }
+
+2056
+Ran the Remove-Migration command in the PMC to solve the duplication error
+Updated the database
