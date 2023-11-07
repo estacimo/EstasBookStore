@@ -161,3 +161,9 @@ Added new table inside the Category model
 
 2050
 Ran the following command in the PMC: Add-Migration AddCategoryToDb
+
+2052
+Added the following using statement to ApplicationDbContext.cs:
+using EstasBookStore.Models;
+along with the following code:
+public DbSet<Category> Categories { get; set; }
