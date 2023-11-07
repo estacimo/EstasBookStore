@@ -158,3 +158,6 @@ Ran Update-Database successfully in the PMC
 Created Category model
 Added System.ComponentModel.DataAnnotations using statement at the top of the class
 Added new table inside the Category model
+
+1918
+Ran the following command in the PMC: Add-Migration AddCategoryToDb
