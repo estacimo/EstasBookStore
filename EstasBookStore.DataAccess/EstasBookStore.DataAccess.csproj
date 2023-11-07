@@ -15,4 +15,8 @@
     <ProjectReference Include="..\EstasBookStore.Utility\EstasBookStore.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\IRepository\" />
+  </ItemGroup>
+
 </Project>

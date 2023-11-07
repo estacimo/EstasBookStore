@@ -171,3 +171,7 @@ public DbSet<Category> Categories { get; set; }
 2056
 Ran the Remove-Migration command in the PMC to solve the duplication error
 Updated the database
+
+2058
+Added Repository folder in the EstasBookStore.DataAccess project
+Added IRepository folder within the Repository folder
