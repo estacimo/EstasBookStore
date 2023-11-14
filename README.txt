@@ -202,3 +202,9 @@ As well as the following code:
 2023-11-08
 2208
 Updated the code for the Repository.cs file with the code provided 
+
+2023-11-14
+1224
+Created the following classes within the DataAccess project:
+ICategoryRepository.cs
+CategoryRepository.cs
