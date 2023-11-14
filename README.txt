@@ -259,3 +259,6 @@ Added new Razor View Index.cshtml
 Modified the HTML code with the provided files
 Running the application...
 Application runs successfully
+
+0826
+Added dropdown item in _Layout.cshtml for the Category
