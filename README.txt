@@ -253,3 +253,9 @@ Added new MVC Controller in the Areas/Admid/Controllers/ folder CategoryControll
 0811
 Modified the code for CategoryController.cs
 Added Category folder in Areas/Admin/Views/ folder
+
+0816
+Added new Razor View Index.cshtml
+Modified the HTML code with the provided files
+Running the application...
+Application runs successfully
