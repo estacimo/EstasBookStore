@@ -227,3 +227,12 @@ Created ISP_Call.cs interface
 1254
 Installed the NuGet Package for Dapper
 Finished modifying the ISP_Call.cs interface
+
+0112
+Created the SP_Call.cs class and implemented the ISP_Call interface
+
+0118
+Added a connection to the database and the needed using statements
+
+0731
+Finished modifying the SP_Call.cs class
