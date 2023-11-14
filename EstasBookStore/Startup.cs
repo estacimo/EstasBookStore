@@ -1,4 +1,6 @@
 using EstasBookStore.DataAccess.Data;
+using EstasBookStore.DataAccess.Repository;
+using EstasBookStore.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,6 +39,7 @@ namespace EstasBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            IServiceCollection serviceCollection = services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

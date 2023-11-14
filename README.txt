@@ -236,3 +236,13 @@ Added a connection to the database and the needed using statements
 
 0731
 Finished modifying the SP_Call.cs class
+
+0735
+Created the UnitOfWork.cs interface in the IRepository folder
+Modified UnitOfWork.cs
+
+0737
+Created UnitOfWork.cs class in the Repository folder
+Changed UnitOfWork.cs interface -> IUnitOfWork
+Implemented the interface in the UnitOfWork.cs class
+Updated Startup.cs
