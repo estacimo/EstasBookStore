@@ -246,3 +246,10 @@ Created UnitOfWork.cs class in the Repository folder
 Changed UnitOfWork.cs interface -> IUnitOfWork
 Implemented the interface in the UnitOfWork.cs class
 Updated Startup.cs
+
+0805
+Added new MVC Controller in the Areas/Admid/Controllers/ folder CategoryController.cs
+
+0811
+Modified the code for CategoryController.cs
+Added Category folder in Areas/Admin/Views/ folder
