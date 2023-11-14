@@ -220,3 +220,10 @@ Fixed the error in CategoryRepository.cs by implementing the interface
 Finished modifying CategoryRepository.cs
 Building the project...
 Build succeeded
+
+1242
+Created ISP_Call.cs interface
+
+1254
+Installed the NuGet Package for Dapper
+Finished modifying the ISP_Call.cs interface
