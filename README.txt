@@ -277,3 +277,6 @@ Added  @await RenderSectionAsync("Scripts", required: false) before the closing 
 0835
 Added the Upsert IActionResult to CategoryController.cs
 Created Upsert.cshtml
+
+0837
+Created _CreateAndBackToListButton.cshtml and added the code for it
