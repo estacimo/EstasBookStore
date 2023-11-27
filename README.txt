@@ -262,3 +262,14 @@ Application runs successfully
 
 0826
 Added dropdown item in _Layout.cshtml for the Category
+
+0830
+Added the provided file category.js
+Added the @section call to the category.js script in Index.cshtml
+
+2023-11-27
+0518
+Had to pull back commits. Copy pasting README.txt as I redo the pulled back commits
+
+0832
+Added  @await RenderSectionAsync("Scripts", required: false) before the closing </body> otherwise my table would throw an exception
