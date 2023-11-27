@@ -23,7 +23,23 @@ namespace EstasBookStore.Areas.Admin.Controllers
             return View();
         }
 
-       
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                return View(Category);
+            }
+
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            return View();
+        }
+
         //API calls here
         #region API CALLS
         [HttpGet]

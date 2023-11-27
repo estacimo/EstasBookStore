@@ -273,3 +273,6 @@ Had to pull back commits. Copy pasting README.txt as I redo the pulled back comm
 
 0832
 Added  @await RenderSectionAsync("Scripts", required: false) before the closing </body> otherwise my table would throw an exception
+
+0835
+Added the Upsert IActionResult to CategoryController.cs
