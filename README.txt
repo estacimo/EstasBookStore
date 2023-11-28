@@ -373,3 +373,7 @@ Added the following code in the @section call:
             return true;
         }
     </script>
+
+0123
+Added new folder images within the wwwroot folder
+Added a new folder products within the images folder
