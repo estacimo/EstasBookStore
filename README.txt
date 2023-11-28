@@ -269,7 +269,7 @@ Added the @section call to the category.js script in Index.cshtml
 
 2023-11-27
 0518
-Had to pull back commits. Copy pasting README.txt as I redo the pulled back commits
+Had to pull back commits. Copy pasting README.txt as I redo the pulled back commits:
 
 0832
 Added  @await RenderSectionAsync("Scripts", required: false) before the closing </body> otherwise my table would throw an exception
@@ -293,3 +293,10 @@ Created Upsert POST action method in CategoryController.cs method
 0845
 Added the API call for HTTPDelete in CategoryController.cs
 Added the Delete(url) function code
+
+---Finished part two of Assignment 2---
+
+2023-11-18
+1306
+Added CoverType.cs in the Models folder
+Added ID and Name 
