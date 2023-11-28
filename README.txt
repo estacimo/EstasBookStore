@@ -286,3 +286,6 @@ Updated the Upsert.cshtml code
 Fixed some issues I was having
 Modified Upsert.cshtml to use @title variable instead of TITLE
 Added validation script in the @section call
+
+0843
+Created Upsert POST action method in CategoryController.cs method

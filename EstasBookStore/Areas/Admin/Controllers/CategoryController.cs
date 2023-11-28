@@ -23,19 +23,37 @@ namespace EstasBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Upsert(int? id)
+        public IActionResult Upsert(int? id) 
         {
             Category category = new Category();
             if (id == null)
             {
+                //this is for create
                 return View(category);
             }
-
+           
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
             if (category == null)
             {
                 return NotFound();
             }
+            return View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if(category.ID == 0)
+            {
+                _unitOfWork.Category.Add(category);
+            } 
+            else
+            {
+                _unitOfWork.Category.Update(category);
+            }
+            _unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
 
             return View(category);
         }
