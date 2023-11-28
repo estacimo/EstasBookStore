@@ -330,3 +330,8 @@ Added migration 20231128104426_addProductToDb.cs and updated the Database
 
 2034
 Added migration 20231128104901_addValidationToProduct.cs and updated the Database
+
+2143
+Created the ProductRepository.cs class and IProductRepository.cs interface
+Updated the code for both of them
+Added Product to IUnitOfWork.cs and UnitOfWork.cs
