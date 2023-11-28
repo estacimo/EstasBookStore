@@ -289,3 +289,7 @@ Added validation script in the @section call
 
 0843
 Created Upsert POST action method in CategoryController.cs method
+
+0845
+Added the API call for HTTPDelete in CategoryController.cs
+Added the Delete(url) function code
