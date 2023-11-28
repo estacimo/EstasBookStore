@@ -384,3 +384,10 @@ Uncommented out the Upsert Post action method in ProductController.cs
 2023-11-28
 0930
 Added <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script> in Upsert view @section call
+Added the following code:
+@if (Model.Product.Id != 0)
+        {
+            <div class="col-3 offset-1 pt-4">
+                <img src="@Model.Product.ImageUrl" style="border-radius:5px; border:1px solid #bbb9b9" />
+            </div>
+        }Updated Upsert.cshtml
