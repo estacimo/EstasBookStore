@@ -351,3 +351,4 @@ Added the IActionResult Upsert to the ProductController and modified the API cal
 
 1739
 Added Index view for Product and modified the code for it
+Added product.js and modified the code for it
