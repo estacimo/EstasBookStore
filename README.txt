@@ -353,3 +353,23 @@ Added the IActionResult Upsert to the ProductController and modified the API cal
 Added Index view for Product and modified the code for it
 Added product.js and modified the code for it
 Modified _Layout.cshtml to add a new link to Product
+
+2023-11-22
+0109
+Added Upsert view for Product and added the code for it
+Added the following code in the @section call:
+<script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+
+        function validateInput() {
+            if (document.getElementById("uploadBox").value = "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+            return true;
+        }
+    </script>
