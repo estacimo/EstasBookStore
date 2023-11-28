@@ -32,12 +32,12 @@ namespace EstasBookStore.Models
             { get; set; }
 
             [Required]
-            public int CategoryId { get; set; } //foreign key reference
+            public int CategoryId { get; set; } 
             [ForeignKey("CategoryId")]
             public Category Category { get; set; }
 
             [Required]
-            public int CoverTypeId { get; set; } //foreign key reference
+            public int CoverTypeId { get; set; } 
             [ForeignKey("CoverTypeId")]
             public CoverType CoverType { get; set; }
         }

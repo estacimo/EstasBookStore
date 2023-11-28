@@ -326,4 +326,7 @@ Added new class Product in Models folder
 2028
 Updated the code for the Product.cs class
 Added reference to Products in the DataBase ApplicationDbContext.cs file
-Added migration 20231128104426_addProductToDb.cs and updated the DataBase
+Added migration 20231128104426_addProductToDb.cs and updated the Database
+
+2034
+Added migration 20231128104901_addValidationToProduct.cs and updated the Database
