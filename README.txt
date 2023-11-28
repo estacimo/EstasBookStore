@@ -300,3 +300,7 @@ Added the Delete(url) function code
 1306
 Added CoverType.cs in the Models folder
 Added ID and Name 
+
+1309
+Added CoverTypeRepository class and ICoverTypeRepository interface
+Added CoverType to UnitOfWork and IUnitOfWork
