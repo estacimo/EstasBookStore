@@ -322,3 +322,7 @@ Created Index view and Upsert view and updated the code for both of them
 
 2007
 Added new class Product in Models folder
+
+2028
+Updated the code for the Product.cs class
+Added reference to Products in the DataBase ApplicationDbContext.cs file
