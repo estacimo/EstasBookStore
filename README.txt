@@ -304,3 +304,7 @@ Added ID and Name
 1309
 Added CoverTypeRepository class and ICoverTypeRepository interface
 Added CoverType to UnitOfWork and IUnitOfWork
+
+1315
+Added the code for the CoverTypeRepository and ICoverTypeRepository
+Added  public DbSet<CoverType> CoverTypes { get; set; } in ApplicationDbContext.cs
