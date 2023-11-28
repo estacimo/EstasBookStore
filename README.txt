@@ -309,3 +309,6 @@ Added CoverType to UnitOfWork and IUnitOfWork
 Added the code for the CoverTypeRepository and ICoverTypeRepository
 Added  public DbSet<CoverType> CoverTypes { get; set; } in ApplicationDbContext.cs
 Added new migration CoverType and successfully updated the DataBase
+
+1839
+Added <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a> to the navbar in _Layout.cshtml
