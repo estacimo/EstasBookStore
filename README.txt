@@ -308,3 +308,4 @@ Added CoverType to UnitOfWork and IUnitOfWork
 1315
 Added the code for the CoverTypeRepository and ICoverTypeRepository
 Added  public DbSet<CoverType> CoverTypes { get; set; } in ApplicationDbContext.cs
+Added new migration CoverType and successfully updated the DataBase
