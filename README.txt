@@ -339,3 +339,9 @@ Added Product to IUnitOfWork.cs and UnitOfWork.cs
 2023-11-19
 1719
 Created the ProductController and updated the code
+
+1722
+Created the ProductVM.cs class in the ViewModels folder
+Added Product object, Category and CoverType lists
+Intalled package Microsoft.AspNetCore.Mvc.ViewFeatures
+Added ﻿using Microsoft.AspNetCore.Mvc.Rendering; using statement at the top of ProductVM.cs
