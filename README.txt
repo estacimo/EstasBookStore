@@ -377,3 +377,6 @@ Added the following code in the @section call:
 0123
 Added new folder images within the wwwroot folder
 Added a new folder products within the images folder
+
+0130
+Uncommented out the Upsert Post action method in ProductController.cs
