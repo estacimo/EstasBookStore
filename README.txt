@@ -345,3 +345,6 @@ Created the ProductVM.cs class in the ViewModels folder
 Added Product object, Category and CoverType lists
 Intalled package Microsoft.AspNetCore.Mvc.ViewFeatures
 Added ﻿using Microsoft.AspNetCore.Mvc.Rendering; using statement at the top of ProductVM.cs
+
+1734
+Added the IActionResult Upsert to the ProductController and modified the API call to include the Category and CoverType properties

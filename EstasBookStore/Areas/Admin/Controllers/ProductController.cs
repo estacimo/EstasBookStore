@@ -1,5 +1,7 @@
 ﻿using EstasBookStore.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using EstasBookStore.Models;
+using EstasBookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -25,11 +27,39 @@ namespace EstasBookStore.Areas.Admin.Controllers
             return View();
         }
 
+        public IActionResult Upsert(int? id)
+        {
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.ID.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+            if (id == null)
+            {
+                return View(productVM);
+            }
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
+            {
+                return NotFound();
+            }
+            return View(productVM);
+        }
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
             return Json(new { data = allObj });
         }
 
