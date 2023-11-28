@@ -335,3 +335,7 @@ Added migration 20231128104901_addValidationToProduct.cs and updated the Databas
 Created the ProductRepository.cs class and IProductRepository.cs interface
 Updated the code for both of them
 Added Product to IUnitOfWork.cs and UnitOfWork.cs
+
+2023-11-19
+1719
+Created the ProductController and updated the code
