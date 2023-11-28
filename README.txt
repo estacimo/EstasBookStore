@@ -312,3 +312,6 @@ Added new migration CoverType and successfully updated the DataBase
 
 1839
 Added <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a> to the navbar in _Layout.cshtml
+
+1856
+Added CoverTypeController with all the required action methods
