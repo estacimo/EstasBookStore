@@ -280,3 +280,9 @@ Created Upsert.cshtml
 
 0837
 Created _CreateAndBackToListButton.cshtml and added the code for it
+Updated the Upsert.cshtml code
+
+0839
+Fixed some issues I was having
+Modified Upsert.cshtml to use @title variable instead of TITLE
+Added validation script in the @section call

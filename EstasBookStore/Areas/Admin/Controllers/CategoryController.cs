@@ -28,7 +28,7 @@ namespace EstasBookStore.Areas.Admin.Controllers
             Category category = new Category();
             if (id == null)
             {
-                return View(Category);
+                return View(category);
             }
 
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
@@ -37,7 +37,7 @@ namespace EstasBookStore.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            return View();
+            return View(category);
         }
 
         //API calls here
