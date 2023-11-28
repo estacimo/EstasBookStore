@@ -319,3 +319,6 @@ Added CoverTypeController with all the required action methods
 1858
 Created CoverType folder in Admin/Views
 Created Index view and Upsert view and updated the code for both of them
+
+2007
+Added new class Product in Models folder
