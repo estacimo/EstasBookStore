@@ -380,3 +380,7 @@ Added a new folder products within the images folder
 
 0130
 Uncommented out the Upsert Post action method in ProductController.cs
+
+2023-11-28
+0930
+Added <script src="https://cdn.tiny.cloud/1/n94ifuzvl80pchikopiwgz2esrw8n28dwcywvpejlqrregfp/tinymce/5/tinymce.min.js"></script> in Upsert view @section call
