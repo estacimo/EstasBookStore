@@ -348,3 +348,6 @@ Added ﻿using Microsoft.AspNetCore.Mvc.Rendering; using statement at the top of
 
 1734
 Added the IActionResult Upsert to the ProductController and modified the API call to include the Category and CoverType properties
+
+1739
+Added Index view for Product and modified the code for it
