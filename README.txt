@@ -315,3 +315,7 @@ Added <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-a
 
 1856
 Added CoverTypeController with all the required action methods
+
+1858
+Created CoverType folder in Admin/Views
+Created Index view and Upsert view and updated the code for both of them
