@@ -390,4 +390,8 @@ Added the following code:
             <div class="col-3 offset-1 pt-4">
                 <img src="@Model.Product.ImageUrl" style="border-radius:5px; border:1px solid #bbb9b9" />
             </div>
-        }Updated Upsert.cshtml
+        }
+
+2023-04-12
+1245
+Fixed covertype.js and product.js having their code accidentally swapped.
