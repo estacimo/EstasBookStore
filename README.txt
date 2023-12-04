@@ -395,3 +395,13 @@ Added the following code:
 2023-04-12
 1245
 Fixed covertype.js and product.js having their code accidentally swapped.
+
+1250
+Updated some code in product Upsert.cshtml
+Exception being thrown in Repository.cs:
+     if (orderBy != null)
+            {
+                return orderBy(query).ToList();
+            }
+            return query.ToList();  
+        }
