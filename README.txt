@@ -392,7 +392,7 @@ Added the following code:
             </div>
         }
 
-2023-04-12
+2023-12-04
 1245
 Fixed covertype.js and product.js having their code accidentally swapped.
 
@@ -405,3 +405,12 @@ Exception being thrown in Repository.cs:
             }
             return query.ToList();  
         }
+
+2023-12-12
+0800
+Tried solving the errors I was having with the Products table again today but I couldn't figure it out ...
+The Products page takes me back to line 55 in Repository.cs: 
+      return query.ToList();      // returns the IEnumerable based on the conditions of the query
+and the page loads indefinitely.
+
+---
